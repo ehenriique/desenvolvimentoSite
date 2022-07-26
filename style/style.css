@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 header{
     width: 100%;
     height: 100vh;
-    background-color: #140614;
+    background: linear-gradient(120deg,#140614,#403a30);
     background-position: center;
     background-size: cover;
 }
