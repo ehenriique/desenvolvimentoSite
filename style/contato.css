@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(120deg,#140614,#403a30);
+}
+
+
+.card{
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin-left: 190px;
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color:white;
+
+}
+
+.rodape a:focus{
+    font-size: 3px;
+}
+
+.titulo {
+    background: #403a40;
+    text-align: center;
+    color: white;
+
+}
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 1px;
+
+}
+header .menu a {
+    color: white;
+    padding: 8px 40px ;
+    border-radius: 3px;
+    transition: 200ms;
+    
+}
+header .menu a:hover{
+    color: #444;
+    background-color: white;
+}
