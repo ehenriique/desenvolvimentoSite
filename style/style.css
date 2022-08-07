@@ -28,12 +28,25 @@ a {
    background: linear-gradient(120deg,#140614,#403a30);
        z-index: 4;
     font-size: 15px;
-    
-    justify-content: space-between;
+    justify-content: space-around;
  
     
 }
 
+.navbar .login {
+	margin: 10px;
+	background-color: black;
+}
+
+header .menu a {
+    color: transparent;
+	    transition: 200ms;
+    
+}
+header .menu a:hover{
+    color: #444;
+    background-color: black;
+}
 .rodape {
     display: flex;
     justify-content: space-around;

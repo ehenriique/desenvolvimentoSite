@@ -9,3 +9,4 @@ function trocarImage03() {
     document.getElementById("img03").src="/img/pcgamer.jpg";
 }
 
+
