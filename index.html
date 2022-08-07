@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="boostrap/css/bootstrap.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/585157a994.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
@@ -16,44 +18,78 @@
 
     <title>Gamer House Sales</title>
 </head>
-<body>
-      <div class="banner" style="height:100px; overflow:hidden;">
+<body> 
+  <div class="banner" style="height:100px; overflow:hidden;">
+</div>
+      
+          
+                        <header>
+                         
+                          
+             
+
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="container-fluid">
+                                  <a class="navbar-brand" href="index.html">Home</a>
+                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                         <div class="navbar-nav me-auto"></div>      
+                                                     
+                                        <div class="navbar-nav">
+                                            
+                                                                         
+                                      <a class="nav-link" href="#"> Novidades </a>
+                                      <a class="nav-link" href="#"> Galeria </a>
+                                     
+                                      <a class="nav-link" href="contato.html">Contato</a>
+                                    
                                     </div>
-                    <header>
-                        <nav class="menu">
-                        <a href="index.html" class="logo">Home</a>
-                        <ul>
-                                <li><a href="index.html">Novidades</a></li>
-                               <li><a href="contato.html">Contato</a></li>
-                                <li><a href="index.html">Destaques</a></li>
-                                <li><a href="index.html">Galeria</a></li>
-                                <li><a href="login.html" class="entrar">Login</a></li>
-                      </ul>
-                    </nav>
+                                  </div>
+                                </div>
+                                <form class="d-flex">
+                                  <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Pesquisar na loja">
+                                      <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                                  </div>
+                              </form>
+                                                    </div>
+                                        
+                                        <div class="navbar-nav">
+                                            <a href="login.html" class="nav-item nav-link">Login</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
                 </header>
 
     <main>
 
-       <button onclick="trocarImage()">alterar</button>
+       
         <div class="card-group">
-            <div class="card">
-                <img src="/img/controle-de-video-game.png" id="img" alt="">
+            <div class="card"><button onclick="trocarImage01()">mudar imagem</button>
+                <img src="/img/iconmonitor.png" id="img01" alt="">
               <div class="card-body">
                 <h5 class="card-title">Monitores</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere dolor justo, ut vehicula arcu vulputate in. Fusce pellentesque sapien velit, nec aliquet eros consectetur aliquet. Nam accumsan mattis velit, et pharetra turpis finibus et. Curabitur ut felis orci. In efficitur vestibulum eros. </p>
                 <a href="#" class="card-link">Comprar Agora</a>
               </div>
             </div>
+           
             <div class="card">
-                <img src="/img/controle-de-video-game.png" class="card-img-top" alt="">
+              <button onclick="trocarImage02()">mudar imagem</button>
+                <img src="/img/iconconsola-de-video.png" id="img02" alt="">
               <div class="card-body">
                 <h5 class="card-title">Consoles</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere dolor justo, ut vehicula arcu vulputate in. Fusce pellentesque sapien velit, nec aliquet eros consectetur aliquet. Nam accumsan mattis velit, et pharetra turpis finibus et. Curabitur ut felis orci. In efficitur vestibulum eros. </p>
                 <a href="#" class="card-link">Comprar Agora</a>
               </div>
             </div>
-            <div class="card">
-              <img src="/img/controle-de-video-game.png" class="card-img-top" alt="">
+            
+            <div class="card"><button onclick="trocarImage03()">mudar imagem</button>
+              <img src="/img/iconpc.png" id="img03" alt="">
               <div class="card-body">
                 <h5 class="card-title">Computadores</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere dolor justo, ut vehicula arcu vulputate in. Fusce pellentesque sapien velit, nec aliquet eros consectetur aliquet. Nam accumsan mattis velit, et pharetra turpis finibus et. Curabitur ut felis orci. In efficitur vestibulum eros. </p>
@@ -73,24 +109,24 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="/img/pexels-bryce-carithers-8782574.jpg" class="d-block w-100" alt="...">
+                  <img src="img/ps5.png" class="d-block w-100" alt="xbox">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Lorem ipsum dolor sit amet</h5>
+                    <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet.</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="/img/pexels-bryce-carithers-8782574.jpg" class="d-block w-100" alt="...">
+                  <img src="/img/ps5.png" class="d-block w-100" alt="ps5">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Lorem ipsum dolor sit amet</h5>
+                    <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
+                  <img src="/img/atari.jpg" class="d-block w-100" alt="atari">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Lorem ipsum dolor sit amet</h5>
+                    <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet.</p>
                   </div>
                 </div>
               </div>
@@ -104,18 +140,128 @@
               </button>
             </div>
           </main>     
+          <br>
+          <br>
 
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Nossos <b>Produtos</b></h2>
+                  <div id="carouselExempleControls" class="carousel slide" data-ride="carousel" data-interval="0">
+                  
+                 <!--itens SEÇÃO-->
+                 
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <div class="thumb-wrapper">
+                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                            <div class="img-box">
+                              <img src="img/ps5.png" class="img-responsive" alt="">									
+                            </div>
+                            <div class="thumb-content">
+                              <h4>Console PS5</h4>									
+                              <div class="star-rating">
+                                <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <p class="item-price"><strike>r$400.00</strike> <b>r$369.00</b></p>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>						
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="thumb-wrapper">
+                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                            <div class="img-box">
+                              <img src="img/pcgamer.jpg" class="img-responsive" alt="">									
+                            </div>
+                            <div class="thumb-content">
+                              <h4>PC Gamer</h4>									
+                              <div class="star-rating">
+                                <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <p class="item-price"><strike>r$400.00</strike> <b>r$369.00</b></p>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>						
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="thumb-wrapper">
+                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                            <div class="img-box">
+                              <img src="img/nintendo.jpg" class="img-responsive" alt="">									
+                            </div>
+                            <div class="thumb-content">
+                              <h4>Console Nintendo</h4>									
+                              <div class="star-rating">
+                                <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <p class="item-price"><strike>r$400.00</strike> <b>r$369.00</b></p>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>						
+                          </div>
+                        </div>
+                       
+                        <div class="col-sm-3">
+                          <div class="thumb-wrapper">
+                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                            <div class="img-box">
+                              <img src="img/jogo1.png" class="img-responsive" alt="">									
+                            </div>
+                            <div class="thumb-content">
+                              <h4>FORTNITE</h4>									
+                              <div class="star-rating">
+                                <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                  <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                </ul>
+                              </div>
+                              <p class="item-price"><strike>r$400.00</strike> <b>r$369.00</b></p>
+                              <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>						
+                          </div>
+                        </div>                                
+                                               
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                            
+                            
+			
 
+          </section>
 </body>
 
 
 <br></br>
 <footer>
 
-    
-<footer>
-
-  <br>
+    <br>
   <div class="rodape">
   <ul class="ofertas">
       <h6>Nossas Ofertas</h3>
@@ -158,7 +304,7 @@
   </div>
 
 
-</footer>
+
     
 </footer>
 </html>
