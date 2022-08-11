@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="boostrap/css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+
+    <script type="text/javascript" src="/js/scriptcontato.js">  </script>
+  <script type="text/javascript" src="/js/validacao.js"></script>
+    <script type="text/javascript" src="/boostrap/js/bootstrap.min.js"> </script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+
+
     <link href="style/contato.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link rel = "shortcut icon" type = "imagem/x-icon" href="img/controle-de-video-game.png" >
-    <script type="text/javascript" src="/boostrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/script.js"></script>
     <title>Fale Conosco</title>
 </head>
 <header>
@@ -70,11 +76,6 @@
          </div>
        </div>
 
- <script type="text/javascript" src="script.js">
-
- </script>
- <script type="text/javascript" src="/boostrap/js/bootstrap.min.js">
-
  </script>
   <br>
      <br>
@@ -86,41 +87,40 @@
      <br>
 
 
-     <div class="container">
+  
       <div><h1 style="color: white;">Nossa Localização</h1></div>
-      <br />
+      <br>
+      <div class="container">
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.264476452057!2d-46.18789238518924!3d-23.522988184701955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd83f25b7f87b%3A0x28b1c3bd2eea56e3!2sSENAI%20%22Nami%20Jafet%22!5e0!3m2!1spt-BR!2sbr!4v1659896417723!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <div id="googlemap" style="width:100%; height:350px;"></div>
-              
+              <div id="googlemap" style="width:50%; height:50px;"></div>
+              <div class="row">
+              <div class="form">
+                <p> Deixe sua Mensagem</p>
+                <form id="basic-form" action="" method="post">
+                  <p>
+                  <label for="name">Nome <span>( minimo 3 letras )</span></label>
+                  <input id="name" name="name" minlength="3" type="text" required>
+                  </p>
+                  <p>
+                  <label for="email">E-Mail <span>(obrigatorio)</span></label>
+                  <input id="email" type="email" name="email" required>
+                  </p>
+                  <textarea rows="4" cols="50" name="comment" form="usrform">
+                    digite aqui sua mensagem.</textarea>
+                  <p>
+                  <input class="submit" type="submit" value="Enviar">
+                  </p>
+                  </form>
           </div>
-          <br />
-          <div class="col-md-6">
-              <form class="my-form">
-                  <div class="form-group">
-                      <label for="form-name">Nome</label>
-                      <input type="email" class="form-control" id="form-name" placeholder="Nome">
-                  </div>
-                  <div class="form-group">
-                      <label for="form-email">Email </label>
-                      <input type="email" class="form-control" id="form-email" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                      <label for="form-subject">Telefone</label>
-                      <input type="text" class="form-control" id="form-subject" placeholder="Telefone">
-                  </div>
-                  <div class="form-group">
-                      <label for="form-message">Escreva sua Mensagem</label>
-                      <textarea class="form-control" id="form-message" placeholder="Messagem"></textarea>
-                  </div>
-                  <button class="btn btn-default" type="submit"> Entre em Contato</button>                
-              </form>
+              </div>
           </div>
       </div>
-  </div>
+     </div>
+       
+    
 </body>
-
 <footer>
 
     <br>
@@ -161,7 +161,8 @@
         </ul>
     </ul>
     </div>
+  </footer>
 
+   
 
-</footer>
 </html>

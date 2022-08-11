@@ -15,8 +15,7 @@
     <link rel = "shortcut icon" type = "imagem/x-icon" href="img/controle-de-video-game.png" >
     <script type="text/javascript" src="/boostrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/script.js"></script>
-    
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
     <title>Gamer House Sales</title>
 </head>
 <body> 
@@ -73,8 +72,10 @@
 
        
         <div class="card-group">
-            <div class="card"><button onclick="trocarImage01()">mudar imagem</button>
-                <img src="/img/iconmonitor.png" id="img01" alt="">
+            <div class="card">
+              <button id="btn" onclick="trocarImage01(), trocaImage02()"></button>
+              <img src="/img/iconmonitor.png" id="img01" alt="monitor">
+                
               <div class="card-body">
                 <h5 class="card-title">Monitores</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere dolor justo, ut vehicula arcu vulputate in. Fusce pellentesque sapien velit, nec aliquet eros consectetur aliquet. Nam accumsan mattis velit, et pharetra turpis finibus et. Curabitur ut felis orci. In efficitur vestibulum eros. </p>

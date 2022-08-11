@@ -21,21 +21,7 @@ body{
     color:white;
 
 }
-.my-form {
-    color: #305896;
-}
-.my-form .btn-default {
-    background-color: #403a40;
-    color: #fff;
-    border-radius: 0;
-}
-.my-form .btn-default:hover {
-    background-color: #4498C6;
-    color: #fff;
-}
-.my-form .form-control {
-    border-radius: 0;
-}
+
 
 .rodape a:focus{
     font-size: 3px;
@@ -66,4 +52,10 @@ header .menu a {
 header .menu a:hover{
     color: #444;
     background-color: white;
+}
+
+.container{
+    display: inline-flexbox;
+    justify-content: center;
+    color: white;
 }
