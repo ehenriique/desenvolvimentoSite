@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(120deg,#140614,#403a30);
+    
+}
+
+
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 1px;
+
+}
+header .menu a {
+    color: white;
+    padding: 8px 40px ;
+    border-radius: 3px;
+    transition: 200ms;
+    
+}
+header .menu a:hover{
+    color: #444;
+    background-color: white;
+}
+
+.container{
+    margin-top: 3%;
+}
+
+
+
+.container h2 
+{
+    margin-top: 10%;
+    text-align: center;
+    color: yellowgreen;
+    text-decoration:underline;
+}
+
+
+
+.form-group{
+    width: 50%;
+    margin-left: 10%;
+
+    
+}
